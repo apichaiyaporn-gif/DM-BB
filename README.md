@@ -1,31 +1,40 @@
-# DM-BB
-เบาหวานบ้านบึงง่ายนิดเดียว
-# =========================
-# Supabase Configuration
-# =========================
+# 🩺 เบาหวานชุมชนสุขภาพดีด้วยหมอคนที่ 1
 
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+ระบบบริหารจัดการผู้ป่วยเบาหวานระดับชุมชน  
+พัฒนาโดยใช้ **Next.js + TailwindCSS + Supabase + Chart.js**
 
-# ใช้เฉพาะ server-side (API / admin)
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+---
 
-# =========================
-# App Configuration
-# =========================
+## 🚀 Features
 
-NEXT_PUBLIC_APP_NAME=เบาหวานชุมชนสุขภาพดีด้วยหมอคนที่ 1
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+- 📊 Dashboard Analytics (FBS / HbA1c / Risk)
+- 👨‍⚕️ Patients Management (CRUD)
+- 📈 Reports Visualization (Chart.js)
+- 👥 User Management (RBAC)
+- ⚙️ System Settings
+- 🔐 Supabase Auth (JWT + Cookies)
+- 📂 CSV Import / Export
+- 🧠 Role-based access:
+  - Admin → Full access
+  - Staff → Tambon scope
+  - Volunteer → Village scope
 
-# =========================
-# Auth (optional)
-# =========================
+---
 
-JWT_SECRET=super-secret-key
+## 🏗 Tech Stack
 
-# =========================
-# Feature Flags
-# =========================
+- Next.js 15 (App Router)
+- TailwindCSS (Glassmorphism UI)
+- Supabase (Auth + DB + RLS)
+- Chart.js
+- TypeScript
 
-ENABLE_CSV_IMPORT=true
-ENABLE_ANALYTICS=false
+---
+
+## ⚙️ Setup (Local Development)
+
+### 1. Clone repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/diabetes-community-health-app.git
+cd diabetes-community-health-app
