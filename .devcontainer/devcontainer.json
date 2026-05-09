@@ -1,0 +1,29 @@
+# =========================
+# Supabase Configuration
+# =========================
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+
+# ใช้เฉพาะ server-side (API / admin)
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+
+# =========================
+# App Configuration
+# =========================
+
+NEXT_PUBLIC_APP_NAME=เบาหวานชุมชนสุขภาพดีด้วยหมอคนที่ 1
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# =========================
+# Auth (optional)
+# =========================
+
+JWT_SECRET=super-secret-key
+
+# =========================
+# Feature Flags
+# =========================
+
+ENABLE_CSV_IMPORT=true
+ENABLE_ANALYTICS=false
